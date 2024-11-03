@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Qimera")(type "KiCad")(uri "${KIPRJMOD}/Qimera.pretty")(options "")(descr ""))
+)

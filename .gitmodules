@@ -1,0 +1,3 @@
+[submodule "zmk-config-qimera"]
+	path = zmk-config-qimera
+	url = https://github.com/AbeerVaishnav13/zmk-config-qimera.git
