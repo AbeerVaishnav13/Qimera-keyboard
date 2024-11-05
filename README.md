@@ -2,12 +2,12 @@
 Design files, 3D models, and ZMK firmware for the Qimera Keyboard
 
 ## Some pics of my build!
-![](./images/qimera_fully_assembled.heic)
-![](./images/qimera_PCB_art.heic)
-![](./images/qimera_tented.heic)
-![](./images/qimera_travel_case.heic)
-![](./images/qimera_compact.heic)
-![](./images/qimera_chair_mount.HEIC)
+![](./images/qimera_fully_assembled.png)
+![](./images/qimera_PCB_art.png)
+![](./images/qimera_tented.png)
+![](./images/qimera_travel_case.png)
+![](./images/qimera_compact.png)
+![](./images/qimera_chair_mount.png)
 
 ## Components for the Build
 For this section, I will assume that you already have the basic soldering station setup with you. If not, please look into getting a good soldering iron, solder wire (lead free is possible), fume extractor, soldering flux, solder wick and/or desoldering pump (to fix any mistakes made while soldering).
@@ -36,12 +36,12 @@ For this section, I will assume that you already have the basic soldering statio
 - Keyboard Enclosure:
     - For this build, I chose to go with a easy to assemble laset cut case ordered from [SendCutSend](https://sendcutsend.com).
     - You can find three design files in the `cases` folder:
-        - [Top plate](./cases/Qimera top plate.dxf): I recommend to get this made in 0.8 - 1.2mm thick mild steel. You can choose a particular finish for it too. I went with 'Black Zinc' coating to make it look a bit nicer! :)
-        - [Battery plate](./cases/Qimera battery plate.dxf): I got this made in 4.5mm thick transparent acrylic material so that the keyboard has a see-through back for the PCB art to be visible.
-        - [Bottom plate](./cases/Qimera bot plate.dxf): I got this made in 3mm thick transparent acrylic material so that the keyboard has a see-through back for the PCB art to be visible.
+        - **Top plate**(`cases/Qimera top plate.dxf`): I recommend to get this made in 0.8 - 1.2mm thick mild steel. You can choose a particular finish for it too. I went with 'Black Zinc' coating to make it look a bit nicer! :)
+        - **Battery plate**(`cases/Qimera battery plate.dxf`): I got this made in 4.5mm thick transparent acrylic material so that the keyboard has a see-through back for the PCB art to be visible.
+        - **Bottom plate**(`cases/Qimera bot plate.dxf`): I got this made in 3mm thick transparent acrylic material so that the keyboard has a see-through back for the PCB art to be visible.
 
 - Travel Case:
-    - You can find the travel case [here](./cases/Qimera travel case.stl) and it can be printed using any conventional 3D printer.
+    - You can find the travel case in `cases/Qimera travel case.stl` and it can be printed using any conventional 3D printer.
     - The travel case is designed to have some loops on the sides, through which you can pass a velcro strap to secure the two halves of the keyboard together and ensure that they don't fall out!
 
 # Important things to keep in mind
@@ -67,7 +67,7 @@ For this section, I will assume that you already have the basic soldering statio
         - After soldering the battery connector, you will notice jumpers similar to ones near MCU. These are to ensure that the battery is connected to correct polarity when you flip one of the PCBs to use it for the other half of the keyboard.
         - Do a similar thing for connecting the jumpers near the battery connector, but this time the jumpers should be connected to the **BOTTOM side of each PCB** (the BOTTOM side being the same side with diodes, power and reset switch).
 
-![](./images/qimera_pcb_jumpers.HEIC)
+![](./images/qimera_pcb_jumpers.png)
 
 # Building and flashing ZMK firmware
 For ease of use, I'm also including my ZMK config. Since, I keep changing my personal config too often, so I would recommend to click on the `zmk-config-qimera` submodule and fork the repo to make your own copy of my config.
