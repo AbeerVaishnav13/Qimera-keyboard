@@ -10,10 +10,10 @@ Design files, 3D models, and ZMK firmware for the Qimera Keyboard
 ![](./images/qimera_chair_mount.png)
 
 ## Components for the Build
-For this section, I will assume that you already have the basic soldering station setup with you. If not, please look into getting a good soldering iron, solder wire (lead free is possible), fume extractor, soldering flux, solder wick and/or desoldering pump (to fix any mistakes made while soldering).
+For this section, I will assume that you already have the basic soldering station setup with you. If not, please look into getting a good soldering iron, solder wire (lead free if possible), fume extractor, soldering flux, solder wick and/or desoldering pump (to fix any mistakes made while soldering).
 
 - PCB: I designed a custom reversible PCB for this keyboard. There are a few options for you to get access to the design files:
-    - I ordered my PCBs from OSH Park as I wanted the PCBs to have a cool look with black core and transparent solder mask so that the copper layers which contain the wiring and art are visible. You can order directly from my [shared project](https://oshpark.com/shared_projects/fcaigPYl) on the OSH Park website.
+    - I ordered my PCBs from OSH Park as I wanted the PCBs to have a cool look with black core and transparent solder mask (check out their '[AfterDark](https://blog.oshpark.com/2019/10/10/introducing-our-after-dark-black-fr-4-service/)' service) so that the copper layers which contain the wiring and art are visible. You can order directly from my [shared project](https://oshpark.com/shared_projects/fcaigPYl) on the OSH Park website.
     - If you want to use a different vendor, you can find the zipped Gerber files in the `pcbs` folder.
     - If you know your way around designing a PCB, you can customize your the PCB on your own by opening the PCB in KiCad or any other compatible PCB design software. Please find the KiCad project files in the `pcbs` folder.
 
